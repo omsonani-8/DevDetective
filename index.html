@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+
+        <div class="header">
+            <h1 class="title">DevDetective</h1>
+            <div class="theme">
+                <!-- <p id="modeText">dark</p> -->
+                <button  data-btntheme class="icon">
+                    <img src="../Love babbar/Dev Detective Project [Code]/18 - Dev Detective Github/Images/moon-icon.svg" alt="" id="themeImage">
+                </button>
+            </div>
+            
+        </div>
+
+        <div class="input-field">
+            <img src="../Love babbar/Dev Detective Project [Code]/18 - Dev Detective Github/Images/search-icon.svg" alt="" class="imgage">
+            <input type="text" placeholder="Enter a Github username..." id="inputField" required autofocus>
+            <button id="btn">
+                Search
+            </button>
+        </div>
+
+        <div class="outputfield">
+            
+            <div class="userOtherInfo">
+            <div class="userInfo">
+                <div class="userImages" >
+                    <img loading="lazy" id="userImage" src="" alt="all" height="500px" width="500px" >
+                </div>
+                <div class="profileName">
+                    <h2 id="name"></h2>
+                    <a href=""  target="_blank" rel="noopener noreferrer"id="username">
+                    </a>
+                </div>
+                <p id="date"></p>
+            </div>
+            <div class="userBio">
+                <p id="profileBio"></p>
+            </div>
+            <div class="user-status-container">
+                
+                <div class="userStatus">
+                    <p class="statsTitle" >Repos</p>
+                    <a id="repos"></a>
+                </div>
+                <div class="userStatus">
+                    <p class="statsTitle">followers</p>
+                    <a id="followers"></a>
+                </div>
+                <div class="userStatus">
+                    <p class="statsTitle">following</p>
+                    <a id="following"></a>
+                </div>
+                
+            </div>
+
+            <div class="userLinks">
+             
+                <div class="location">
+                    <div class="bottomIcon"><img src="../Love babbar/Dev Detective Project [Code]/18 - Dev Detective Github/Images/location-icon.svg" alt=""></div>
+                    <p id="locationLink"></p>
+                </div>
+                <div class="website">
+                   <div class="bottomIcon">
+
+                  <img src="../Love babbar/Dev Detective Project [Code]/18 - Dev Detective Github/Images/website-icon.svg" alt=""> </div> 
+                    <div><a href="" id="websiteLink"></a></div>
+                
+            </div>
+           
+                <div class="twitter">
+                    <div class="bottomIcon"> <img src="../Love babbar/Dev Detective Project [Code]/18 - Dev Detective Github/Images/twitter-icon.svg" alt=""></div>
+                    <div><a href="" id="twitterLink"></a></div>
+                </div>
+                <div class="office">
+                    <div class="bottomIcon"> <img src="../Love babbar/Dev Detective Project [Code]/18 - Dev Detective Github/Images/company-icon.svg" alt=""> </div>
+                <div> <p id="officeLink"></p> </div>
+                </div>
+           
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="./script.js"> 
+
+    </script>
+</body>
+</html>
